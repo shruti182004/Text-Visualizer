@@ -76,9 +76,9 @@ Install all the required Python libraries.
 
 **5. Run the App**
 
-Now you're ready to go!
+- Now you're ready to go!
 
-streamlit run app.py
+```streamlit run app.py```
 
 
 ## ☁️ How to Deploy on Streamlit Cloud
