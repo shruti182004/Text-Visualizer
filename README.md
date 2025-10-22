@@ -18,8 +18,8 @@ This project is a Streamlit web application that functions as a user-friendly in
 
 - Smart Error Handling: Automatically retries if the AI model is loading (503 Error) and provides clear messages for other errors.
 
-## Collaborators
-Jitin Nair - [github.com/Jitin10]
+## 🤝 Collaborators
+* [**Jitin Nair**](https://github.com/Jitin10)
 
 ## 🛠️ Tech Stack
 
