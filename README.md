@@ -30,7 +30,7 @@ This project is a Streamlit web application that functions as a user-friendly in
 
 Follow these steps to run the app on your own computer.
 
-** 1. Clone the Repository **
+**1. Clone the Repository**
 
 git clone [https://github.com/YourUsername/text-visualizer.git](https://github.com/YourUsername/text-visualizer.git)
 cd text-visualizer
@@ -38,65 +38,64 @@ cd text-visualizer
 
 (Replace YourUsername with your actual GitHub username)
 
-** 2. Create a Virtual Environment (Recommended) ** 
+**2. Create a Virtual Environment (Recommended)** 
 
 # For Windows
-python -m venv venv
-.\venv\Scripts\activate
+```python -m venv venv```
+```.\venv\Scripts\activate```
 
 # For macOS/Linux
-python3 -m venv venv
-source venv/bin/activate
+```python3 -m venv venv```
+```source venv/bin/activate```
 
 
-** 3. Install Dependencies **
+**3. Install Dependencies**
 
 Install all the required Python libraries.
 
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 
-** 4. Add Your API Key (Critical Step) **
+**4. Add Your API Key (Critical Step)**
 
-This app will not run without your Hugging Face API key.
+- This app will not run without your Hugging Face API key.
 
-In your project folder (text-visualizer), create a new folder named .streamlit.
+- In your project folder (text-visualizer), create a new folder named .streamlit.
 
-Inside the .streamlit folder, create a new file named secrets.toml.
+- Inside the .streamlit folder, create a new file named secrets.toml.
 
-Open secrets.toml and add your API key like this:
+- Open secrets.toml and add your API key like this:
 
-HF_API_TOKEN = "hf_YOUR_HUGGING_FACE_TOKEN_HERE"
+```HF_API_TOKEN = "hf_YOUR_HUGGING_FACE_TOKEN_HERE"```
 
 
-** 5. Run the App **
+**5. Run the App**
 
 Now you're ready to go!
 
 streamlit run app.py
 
 
-** ☁️ How to Deploy on Streamlit Cloud **
+**☁️ How to Deploy on Streamlit Cloud**
 
-The easiest way to share your app is to deploy it for free on Streamlit Community Cloud.
+- The easiest way to share your app is to deploy it for free on Streamlit Community Cloud.
 
-Push to GitHub: Make sure your repository is fully uploaded to GitHub (including app.py, requirements.txt, and this README.md).
+- Push to GitHub: Make sure your repository is fully uploaded to GitHub (including app.py, requirements.txt, and this README.md).
 
-Sign Up: Create a free account on Streamlit Community Cloud.
+- Sign Up: Create a free account on Streamlit Community Cloud.
 
 Deploy:
 
-Click "New App" and connect your GitHub account.
+- Click "New App" and connect your GitHub account.
 
-Select your text-visualizer repository.
+- Select your text-visualizer repository.
 
-IMPORTANT: Click the "Advanced settings..." button.
+- IMPORTANT: Click the "Advanced settings..." button.
 
-In the "Secrets" section, paste your API key exactly as you did in your local secrets.toml file:
+- In the "Secrets" section, paste your API key exactly as you did in your local secrets.toml file:
 
-HF_API_TOKEN = "hf_YOUR_HUGGING_FACE_TOKEN_HERE"
+```HF_API_TOKEN = "hf_YOUR_HUGGING_FACE_TOKEN_HERE"```
 
-
-Click "Save".
+- Click "Save".
 
 Click "Deploy!" and your app will be live on the internet.
