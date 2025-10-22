@@ -4,6 +4,7 @@ This project is a Streamlit web application that functions as a user-friendly in
 
 <img width="1920" height="807" alt="Screenshot (244)" src="https://github.com/user-attachments/assets/d841e860-cda3-481a-b8d3-da15769ea665" />
 <img width="1920" height="736" alt="Screenshot (245)" src="https://github.com/user-attachments/assets/76c29786-7e12-4e8a-b1f7-ab1a4d9e07aa" />
+
 ## ✨ Core Features
 
 - Text-to-Image Generation: Transforms any text description into a high-quality image.
