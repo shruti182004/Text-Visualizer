@@ -76,7 +76,7 @@ Now you're ready to go!
 streamlit run app.py
 
 
-##☁️ How to Deploy on Streamlit Cloud
+## ☁️ How to Deploy on Streamlit Cloud
 
 - The easiest way to share your app is to deploy it for free on Streamlit Community Cloud.
 
@@ -84,7 +84,7 @@ streamlit run app.py
 
 - Sign Up: Create a free account on Streamlit Community Cloud.
 
-Deploy:
+**Deploy:**
 
 - Click "New App" and connect your GitHub account.
 
