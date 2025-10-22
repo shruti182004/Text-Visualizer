@@ -1,5 +1,7 @@
 # Text_Visualizer
 This project is a Streamlit web application that functions as a user-friendly interface for AI-powered image generation. It allows users to turn their text descriptions (prompts) into visual images.
+
+
 <img width="1920" height="807" alt="Screenshot (244)" src="https://github.com/user-attachments/assets/d841e860-cda3-481a-b8d3-da15769ea665" />
 <img width="1920" height="736" alt="Screenshot (245)" src="https://github.com/user-attachments/assets/76c29786-7e12-4e8a-b1f7-ab1a4d9e07aa" />
 ## ✨ Core Features
@@ -15,6 +17,9 @@ This project is a Streamlit web application that functions as a user-friendly in
 - Secure API Handling: Uses Streamlit's built-in secrets management to keep your Hugging Face API token safe and secure.
 
 - Smart Error Handling: Automatically retries if the AI model is loading (503 Error) and provides clear messages for other errors.
+
+## Collaborators
+Jitin Nair - [github.com/Jitin10]
 
 ## 🛠️ Tech Stack
 
